@@ -27,7 +27,7 @@ You will be building a simple two-screen podcasts app. A basic mockup is provide
 
 ## Details
 
-- [ ] Create a new repository to work in. Do **NOT** fork this repository.
+- [ ] Create a new repository to work in. Do <ins>**NOT**</ins> fork this repository.
 - [ ] Must be written in Kotlin and use Jetpack Compose for UI for Android applicants, and Objective-C or Swift for iOS applicants. For iOS applicants, please use UIKit.
 - [ ] For the API, use data provided by Listen Notes:
 	 - [ ] Use the following endpoint to fetch podcast data: https://www.listennotes.com/api/docs/?lang=kotlin&test=1#get-api-v2-best_podcasts
