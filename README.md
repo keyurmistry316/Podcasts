@@ -1,4 +1,4 @@
-# Mobile Developer Coding Challenge
+# Mobile Developer Coding Challenge (Junior)
 
 Please read the instructions below carefully before starting the coding challenge.
 
