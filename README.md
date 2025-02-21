@@ -13,9 +13,7 @@ You will be building a simple two-screen podcasts app. A basic mockup is provide
 #### Screen 1
 
 - [ ] Show a list of podcasts using the endpoint provided below.
-- [ ] Each list item should show the podcast thumbnail, title, and publisher name.
-- [ ] Leave some space for the "Favourited" label (refer to the second podcast in the list in the mockup above).
-- [ ] Show the Favourited label only if the podcast has been favourited, otherwise hide the label.
+- [ ] Each list item should show the podcast thumbnail, title, and publisher name. There is <ins>**NO**</ins> need to show the Favourite text shown in the mock for screen 1.
 
 #### Screen 2
 
@@ -23,18 +21,16 @@ You will be building a simple two-screen podcasts app. A basic mockup is provide
 - [ ] On Screen 2, show the podcast's title, publisher name, thumbnail, and description.
 - [ ] Add a Favourite button.
 - [ ] The Favourite button should have two states: Favourite and Favourited.
-- [ ] When tapping the Favourite button, the label should change to Favourited, and vice-versa.
+- [ ] When tapping the Favourite button, the label should change to Favourited, and vice-versa. There is <ins>**NO**</ins> need to handle the actual favourite action.
 
 ## Details
 
 - [ ] Create a new repository to work in. Do <ins>**NOT**</ins> fork this repository.
-- [ ] Must be written in Kotlin and use Jetpack Compose for UI for Android applicants, and Objective-C or Swift for iOS applicants. For iOS applicants, please use UIKit.
-- [ ] For the API, use data provided by Listen Notes:
-	 - [ ] Use the following endpoint to fetch podcast data: https://www.listennotes.com/api/docs/?lang=kotlin&test=1#get-api-v2-best_podcasts
+- [ ] Must be written in Kotlin and use Jetpack Compose for UI.
+- [ ] The initial project was created using Android Studio Ladybug Feature Drop | 2024.2.2 Patch 1. Make sure to have an updated version of Android Studio before starting the challenge.
+- [ ] For the API, fetch the data using the Repository instance in the PodcastListViewModel class. If needed, check the information provided by the API used:
+	 - [ ] The following endpoint is used to fetch podcast data: https://www.listennotes.com/api/docs/?lang=kotlin&test=1#get-api-v2-best_podcasts
 	 - [ ] No API key required, you can simply use the mock server to fetch test data. [More information here](https://www.listennotes.help/article/48-how-to-test-the-podcast-api-without-an-api-key "More information here").
-- [ ] Focus on implementing the app in portrait orientation only.
-- [ ] The list should support pagination, loading 10 items at a time.
-- [ ] Favourite state should be persistent.
 
 ## The Evaluation
 
