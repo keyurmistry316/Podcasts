@@ -26,6 +26,7 @@ You will be building a simple two-screen podcasts app. A basic mockup is provide
 ## Details
 
 - [ ] Create a new repository to work in. Do <ins>**NOT**</ins> fork this repository.
+- [ ] Please use the code from this repository as a starting point to complete the challenge. If you want to instead start from scratch, that is also an option, but is not required nor expected.
 - [ ] Must be written in Kotlin and use Jetpack Compose for UI.
 - [ ] The initial project was created using Android Studio Ladybug Feature Drop | 2024.2.2 Patch 1. Make sure to have an updated version of Android Studio before starting the challenge.
 - [ ] For the API, fetch the data using the Repository instance in the PodcastListViewModel class. If needed, check the information provided by the API used:
