@@ -8,5 +8,6 @@ data class Podcast(
     val title: String,
     val description: String,
     val image: String,
-    val publisher: String
+    val publisher: String,
+    val isFavorite: Boolean
 )
