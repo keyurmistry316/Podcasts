@@ -17,6 +17,8 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Divider
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -109,10 +111,17 @@ fun PodcastList(
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         contentPadding = PaddingValues(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         items(podcasts) { podcast ->
             PodcastItem(podcast = podcast, onPodcastClick = onPodcastClick)
+
+            if(podcasts.last() != podcast){
+                HorizontalDivider(
+                    modifier = Modifier.padding(vertical = 5.dp),
+                    thickness = 1.dp,
+                    color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+                )
+            }
         }
     }
 }
